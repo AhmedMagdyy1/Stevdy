@@ -1,0 +1,27 @@
+@import '../../index.scss';
+
+
+
+
+.contentBg {
+    color: $contentColor;
+}
+
+.paragraphStyle{
+    font-size: 24px;
+font-weight: 400;
+}
+
+.h1Style {
+    font-size: 58px;
+font-weight: bold;
+}
+
+.btnStyle {
+    background-color: #fff;
+    color: $mainColor;
+    &:hover {
+        color:  black;
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,20 @@
+@import '../../index.scss';
+
+
+.navHead {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 52px;
+    font-style: normal;
+    text-align: left;
+    color: $contentColor;
+        &:hover {
+            color: $contentColor;
+        }
+}
+
+.btnBg {
+    background: $buttonColor;
+    border-radius: 10px;
+    color: $contentColor;
+}

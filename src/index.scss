@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+$contentColor:#fff;
+$buttonColor:linear-gradient(-90deg, 
+rgba(124,28,128,0.66 ) 0.00%, 
+#ff6057 100.00%);
+
+$mainColor:#FF6057;
+
+$color1:#F1291E;
+$color2:#36C5AD;
+$color3:#CB4BF8;
+$color4:#56E65B;
+
+
+
+
+.blob {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    z-index: -1;
+    // border-radius: 0% 0% 75% 0%;
+    // clip-path: polygon(0 0, 50% 0, 100% 50%, 50% 100%, 0 100%);
+    // -webkit-clip-path: polygon(0 0, 100% 0, 90% 80%, 50% 100%, 0 100%);
+    // background: linear-gradient(to bottom right, #FF6057,#D45366);
+}
+
+
+
+@media screen and (max-width:600px) {
+  .blob {
+    width: 100%;
+  }
+  .h1Style {
+    font-size: 29px !important;
+  }
+  .brandsImg{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+  }
+  .leftBlob{
+    width: 70% !important;
+    height: 70vh !important;
+    top: -25%;
+  }
+  .imgOverview {
+    width: 95% !important;
+  }
+  .leftImg {
+    margin-top: 10px !important;
+    top: -20% !important;
+    left: -15% !important;
+    width: 110% !important;
+  }
+  .platformDetails {
+    margin-top: 50% !important;
+  }
+  .rightBlob{
+    width: 70% !important;
+    height: 70vh !important;
+    top: 50% !important;
+  }
+  .cardPadding {
+    padding: 20px !important;
+  }
+  .testimonialImg {
+    width: 40% !important;
+    height: 50% !important;
+  }
+  .footerStyle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerDiv {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width:601px) and (max-width:768px) {
+  .blob {
+    width: 100%;
+  }
+  .h1Style {
+    font-size: 40px !important;
+  }
+  .brandsImg{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .leftBlob{
+    width: 70% !important;
+    height: 90vh !important;
+    top: -40%;
+  }
+  .imgOverview {
+    width: 95% !important;
+  }
+  .leftImg {
+    margin-top: 10px !important;
+    top: -20% !important;
+    left: -15% !important;
+    width: 80% !important;
+  }
+  .platformDetails {
+    margin-top: 45% !important;
+  }
+  .rightBlob{
+    width: 70% !important;
+    height: 70vh !important;
+    top: 40% !important;
+  }
+  .footerStyle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerDiv {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+  .blob {
+    width: 100%;
+    height: 80vh;
+  }
+  .h1Style {
+    font-size: 50px !important;
+  }
+  .brandsImg{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .leftBlob{
+    width: 70% !important;
+    height: 90vh !important;
+    top: -25%;
+  }
+  .imgOverview {
+    width: 95% !important;
+  }
+  .leftImg {
+    margin-top: 10px !important;
+    top: -20% !important;
+    left: -15% !important;
+    width: 80% !important;
+  }
+  .platformDetails {
+    margin-top: 45% !important;
+  }
+  .rightBlob{
+    width: 60% !important;
+    height: 70vh !important;
+    top: 35% !important;
+  }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+  .blob {
+    width: 100%;
+    height: 110vh;
+  }
+  .h1Style {
+    font-size: 50px !important;
+  }
+  .brandsImg{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .leftBlob{
+    width: 70% !important;
+    height: 90vh !important;
+    top: -25%;
+  }
+  .imgOverview {
+    width: 95% !important;
+  }
+  .leftImg {
+    top: 0% !important;
+    width: 55% !important;
+  }
+  .rightBlob{
+    width: 60% !important;
+    height: 70vh !important;
+    top: 15% !important;
+  }
+}

@@ -1,0 +1,44 @@
+@import '../../index.scss';
+
+
+.leftImg{
+    position: absolute;
+    left: -9%;
+    top: -55%;
+}
+
+
+.hrStyle{
+    background-color: $mainColor;
+    height: 4px;
+    border-top: none;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.h3Style{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.spanStyle {
+    color: $mainColor;
+    opacity: 1;
+}
+
+.leftBlob {
+    // position: absolute;
+    // top: -15%;
+    // left: 0%;
+    // width: 35%;
+    // height: 71vh;
+    // border-radius: 0% 100% 70% 10%;
+    // background: linear-gradient(to bottom right, #FF6057, #D45366);
+    // z-index: -1;
+    position: absolute;
+    bottom: -80%;
+    right: 71%;
+    width: 70%;
+    height: 110vh;
+    z-index: -1;
+}

@@ -1,0 +1,155 @@
+@import '../../index.scss';
+
+
+.h3Style{
+  font-size: 38px;
+font-weight: bold;
+}
+
+.btnBg {
+  background: $buttonColor;
+  border-radius: 10px;
+  color: $contentColor;
+}
+
+.conferenceTimeline {
+    position: relative;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .conferenceTimeline .conferenceCenterLine {
+    position: absolute;
+    width: 3px;
+    height: 80%;
+    top: 0;
+    left: 44%;
+    margin-left: -2px;
+    background: rgb(200, 199, 199);
+    z-index: -1;
+  }
+  .conferenceTimeline .conferenceTimelineContent {
+    padding-top: 67px;
+    padding-bottom: 67px;
+  }
+  .timelineArticle {
+    width: 87%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  .timelineArticle .contentLeftContainer,
+  .timelineArticle .contentRightContainer {
+    max-width: 44%;
+    width: 100%;
+  }
+  .timelineArticle .timelineAuthor {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #242424;
+    text-align: right;
+  }
+  .timelineArticle .contentRight {
+    position: relative;
+    width: auto;
+    background-color: #fff;
+    padding: 27px 10px;
+  }
+  .timelineArticle p {
+    margin: 0 0 0 60px;
+    padding: 0;
+    font-weight: 400;
+    color: #242424;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+  }
+  .timelineArticle p span.articleNumber {
+    position: absolute;
+    font-weight: 300;
+    font-size: 44px;
+    top: 10px;
+    left: -60px;
+    color: red;
+  }
+  .timelineArticle .contentLeftContainer {
+    float: left;
+  }
+  .timelineArticle .contentRightContainer {
+    float: right;
+  }
+  .timelineArticle .contentLeft:before,
+  .timelineArticle .contentRight:before{
+    position: absolute;
+    top: 20px;
+    font-size: 23px;
+    font-family: "FontAwesome";
+    color: #fff;
+  }
+  .timelineArticle .contentLeft:before {
+    content: "\f0da";
+    right: -8px;
+  }
+  .timelineArticle .contentRight:before {
+    content: "\f0d9";
+    left: -8px;
+  }
+  .timelineArticle .metaDate {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 62px;
+    height: 62px;
+    margin-left: -31px;
+    color: #fff;
+    border-radius: 100%;
+    background: $mainColor;
+  }
+  .timelineArticle .metaDate .date {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+  }
+  .timelineArticle .metaDate .date {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  @media only screen and (max-width: 830px) {
+    .conferenceTimeline .conferenceCenterLine {
+      margin-left: 0;
+      left: 50px;
+    }
+    .timelineArticle .metaDate {
+      margin-left: 0;
+      left: 20px;
+    }
+    .timelineArticle .contentLeftContainer,
+    .timelineArticle .contentRightContainer {
+      max-width: 100%;
+      width: auto;
+      float: none;
+      margin-left: 110px;
+      min-height: 53px;
+    }
+    .timelineArticle .contentLeftContainer {
+      margin-bottom: 20px;
+    }
+    .timelineArticle .contentLeft,
+    .timelineArticle .contentRight {
+      padding: 10px 25px;
+      min-height: 65px;
+    }
+    .timelineArticle .contentLeft:before {
+      content: "\f0d9";
+      right: auto;
+      left: -8px;
+    }
+    .timelineArticle .contentRight:before {
+      display: none;
+    }
+  }

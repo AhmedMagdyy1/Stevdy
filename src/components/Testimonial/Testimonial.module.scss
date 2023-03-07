@@ -1,0 +1,38 @@
+@import '../../index.scss';
+
+.h4Style{
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.spanStyle{
+    font-size: 46px;
+    font-weight: bold;
+    color:$mainColor;
+}
+
+.card {
+    // filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.16 ));
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    // border: 1px solid grey;
+}
+.checked {
+    color: #CB48F9;
+}
+
+.btnBg {
+    background: $buttonColor;
+    border-radius: 10px;
+    color: $contentColor;
+  }
+
+.ellipseContainer{
+    position: absolute;
+    bottom: -15%;
+    left: 45%;
+}
+
+.ellipseStyle {
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,40 @@
+@import '../../index.scss';
+
+.hrStyle{
+    background-color: $mainColor;
+    height: 4px;
+    border-top: none;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.h3Style{
+    font-size: 38px;
+font-weight: bold;
+}
+
+.spanStyle {
+    color: $mainColor;
+    opacity: 1;
+}
+
+.icon1 {
+    background-color: $color1;
+    filter: drop-shadow(0px 0px 7.5px rgba(0,0,0,0.26 ));
+    border-radius: 50%;
+}
+.icon2 {
+    background-color: $color2;
+    filter: drop-shadow(0px 0px 7.5px rgba(0,0,0,0.26 ));
+    border-radius: 50%;
+}
+.icon3 {
+    background-color: $color3;
+    filter: drop-shadow(0px 0px 7.5px rgba(0,0,0,0.26 ));
+    border-radius: 50%;
+}
+.icon4 {
+    background-color: $color4;
+    filter: drop-shadow(0px 0px 7.5px rgba(0,0,0,0.26 ));
+    border-radius: 50%;
+}

@@ -1,0 +1,29 @@
+@import '../../index.scss';
+
+
+.hrStyle{
+    background-color: $mainColor;
+    height: 5px;
+    border-top: none;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.h3Style{
+    font-size: 38px;
+font-weight: bold;
+}
+
+.spanStyle {
+    color: $mainColor;
+    opacity: 1;
+}
+
+.rightBlob {
+    position: absolute;
+    top: -3%;
+    left: 75%;
+    width: 50%;
+    height: 100vh;
+    z-index: -1;
+}
